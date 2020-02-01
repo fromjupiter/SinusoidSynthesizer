@@ -1,0 +1,2 @@
+# SinusoidSynthesizer
+Additive Sinusoid Sythesizer
