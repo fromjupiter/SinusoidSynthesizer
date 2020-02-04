@@ -4,16 +4,16 @@ sample_rate: 44100
 cosine_waves: 10
 
 # Fast Fourier Transformation parameter n_fft
-n_fft: 8192
+n_fft: 1024
 
 # FFT window size, n_fft is usually recommended
-window_len: 8192
+window_len: 512
 
 # FFT hop length, n_fft/4 is usually recommended
-hop_len: 2048
+hop_len: 512
 
 # Frequency tolerance used in frequency tracker
 freq_tolerance: 0.01
 
 # Frame length, 2*hop_len is usually recommended
-frame_len: 4096
+frame_len: 1024
